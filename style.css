@@ -1,0 +1,137 @@
+body{
+
+    font-family: 'Amatic SC';
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+nav {
+display: flex;
+gap: 84px;
+font-size: 30px;;
+padding: 0 20px;
+
+}
+
+nav a{
+    text-decoration: bold;
+    text-transform: uppercase;
+    font-size: 48;
+    color: #FFCD6B;
+}
+
+.button{
+    color: #FFCD6B;
+    font-size: 30px;
+}
+
+.banner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Group\ 3.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner_o{
+    background-color: #FF8500;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.banner_p{
+    background-color: #9D4EDD;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.cart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stepan{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    background-color: #FFCD6B;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.products{
+    background-color: #FF8500;
+}
+
+.product{
+    background-color: #fff; 
+    size: 50vb 50vb;
+    width: 18%;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    
+}
+
+.product_name{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.product_price{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    padding: auto;
+}
+.product_oldp{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(79, 79, 79);
+    text-align: center;
+    padding: auto;
+    text-decoration-line: line-through;
+}
+.hh{
+    background-color: #CA761B;
+    height: 97px;
+}
+
+.product_img{
+    size: 50 50;
+    align-items: center;
+}
+
+.viddil{
+    text-align: center;
+    color:#fff;
+    font-size: 80px; 
+}
+
+.tutylka{
+    background-color: #9D4EDD;
+}
